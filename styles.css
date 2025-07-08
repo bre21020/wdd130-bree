@@ -1,9 +1,32 @@
-:root {
-  --primary-color: #000F08;
-  --secondary-color: #6a7062;
+#indexbody {
+  background-color: white;
 }
 
+#indexheader {
+    display: grid;
+    grid-template-columns: 1fr 6fr 8fr;
+    grid-template-rows: 1fr;
+    border: solid 1px #000000;
+    justify-items: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0%
+}
 
-body {
-  background-color: #000F08;
+#indexp {
+    color: black;
+}
+
+#indexlink {
+    text-decoration: none;
+    color: black;
+}
+
+#indexnav {
+    font-size: medium;
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    text-decoration: none;
+    justify-items: center;
+    align-items: center;
 }
