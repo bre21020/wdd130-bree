@@ -5,7 +5,7 @@
 #indexheader {
     display: grid;
     grid-template-columns: 1fr 6fr 8fr;
-    /* grid-template-rows: 1fr; */
+    grid-template-rows: 1fr; 
     border: solid 1px #000000;
     justify-items: center;
     align-items: center;
